@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/all.min.css">
+    <link rel="stylesheet" href="assets/style/master.css">
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="sticky-top">
+        <div class="container">
+            
+            <div class="row py-2">
+                <div class="col-3">
+                    <div class="logo">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                </div>
+                <ul class="col-6 d-none d-lg-flex navbar-nav navbar-dark flex-row justify-content-between">
+                    <li class="active nav-item">
+                        <a href="#"><i class="fas fa-house-chimney"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i class="fas fa-user-group"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i class="fas fa-users"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i class="fas fa-gamepad"></i></a>
+                    </li>
+                    <div class="form position-relative">
+                        <i class="fa fa-search position-absolute"></i>
+                        <input type="text" class="form-control form-input" placeholder="Search">
+                    </div>
+                </ul>
+                <div class="col-3 right_nav d-flex align-items-center justify-content-between">
+                    <button class="d-none d-lg-flex">Create</button>
+                    <i class="fa-sharp fa-solid fa-bell"></i>
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Content -->
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-3 left  d-none d-lg-flex">
+                <!-- Left Side -->
+                    <div>
+                            <section>
+                            <!-- User -->
+                            <div class="user d-flex align-items-center lightback round">
+                                <img class="round-img" src="assets/imgs/user.jpg" alt="user photo">
+                                <span>Ahmed Samy</span>
+                            </div>
+                            <!-- Messenger -->
+                            <div class="Messenger lightback round position-relative">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h5>Messenger</h5>
+                                    <a href="#">All</a>
+                                </div>
+                                <!-- Person 1 -->
+                                <div class="Person d-flex align-items-center">
+                                    <img class="round-img" src="assets/imgs/person1.jpg" alt="person1">
+                                    <h6 class="Name">Dave Rowley</h6>
+                                    <span class="online position-absolute"></span>
+                                </div>
+                                <!-- Person 2 -->
+                                <div class="Person d-flex align-items-center">
+                                    <img class="round-img" src="assets/imgs/person2.jpg" alt="person1">
+                                    <h6 class="Name">Steven Cole</h6>
+                                    <span class="online position-absolute"></span>
+                                </div>
+                                <!-- Person 3 -->
+                                <div class="Person d-flex align-items-center">
+                                    <img class="round-img" src="assets/imgs/person3.jpg" alt="person1">
+                                    <h6 class="Name">Harold Baldwin</h6>
+                                    <span class="online position-absolute"></span>
+                                </div>
+                                <!-- Person 4 -->
+                                <div class="Person d-flex align-items-center">
+                                    <img class="round-img" src="assets/imgs/person4.jpg" alt="person1">
+                                    <h6 class="Name">Charles Ladner</h6>
+                                    <span class="offline position-absolute"></span>
+                                </div>
+                            </div>
+                                                <!-- Recently Viewed -->
+                                                <div class="Recently lightback round d-flex flex-wrap col-12">
+                                                    <div class="col-12 p-1"><h5>Recently Viewed</h5></div>
+                                                    <div class="col-6 p-1"><img class="w-100 rounded" src="assets/imgs/1.jpg" alt=""></div>
+                                                    <div class="col-6 p-1"><img class="w-100 rounded" src="assets/imgs/2.avif" alt=""></div>
+                                                    <div class="col-6 p-1"><img class="w-100 rounded" src="assets/imgs/3.jpg" alt=""></div>
+                                                    <div class="col-6 p-1"><img class="w-100 rounded" src="assets/imgs/8.jpg" alt=""></div>
+                                                </div>
+                        </section>
+                    </div>
+                </div>
+                <!-- Center -->
+                <div class="col-md-12 col-lg-6 Center ">
+                    <!-- Story -->
+                    <div class="col-12 d-flex align-items-center story">
+                        <div class="col-3 p-1 story-img position-relative"><img class="w-100 story-img-main round" src="assets/imgs/story.jpg" alt=""><h6 class=" story-name-add position-absolute">Add Story</h6><div class="plus"><i class="fas fa-plus position-absolute"></i></div></div>
+                        <div class="col-3 p-1 story-img position-relative"><img class="w-100 story-img-main round" src="assets/imgs/story2.jpg" alt=""><h6 class=" story-name position-absolute">Dave Rowley</h6> <img class="story-person-img round-img position-absolute" src="assets/imgs/person1.jpg" alt=""></div>
+                        <div class="col-3 p-1 story-img position-relative"><img class="w-100 story-img-main round" src="assets/imgs/story3.webp" alt=""><h6 class=" story-name position-absolute">Steven Cole</h6> <img class="story-person-img round-img position-absolute" src="assets/imgs/person2.jpg" alt=""></div>
+                        <div class="col-3 p-1 story-img position-relative"><img class="w-100 story-img-main round" src="assets/imgs/story4.jpg" alt=""><h6 class=" story-name position-absolute">Harold Baldwin</h6> <img class="story-person-img round-img position-absolute" src="assets/imgs/person3.jpg" alt=""></div>
+                    </div>
+                    <!-- Add Post -->
+                    <div class="col-12 lightback rounded d-flex align-items-center main-post position-relative my-3 py-3">
+                        <div class="add-post-img px-4"><img class="round-img" src="assets/imgs/user.jpg" alt=""></div>
+                        <div class="text"><input type="text" placeholder="Ahmed, What's the lastest?"></div>
+                        <i class="fa-solid fa-circle-chevron-down post-icon position-absolute"></i>
+                    </div>
+                    <!-- POST 1-->
+                    <div class="col-12 lightback round py-3 mb-3">
+                        <div class="post-data d-flex">
+                            <div class="add-post-img px-4"><img class="round-img" src="assets/imgs/person1.jpg" alt=""></div>
+                            <div class="post-txt"><h6 class="post-h6">Dave Rowley</h6> <span>Cairo , 5min ago</span></div>
+                        </div>
+                        <h6 class="p-2 mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione suscipit nam enim inventore! Fugit, libero distinctio veritatis deserunt assumenda expedita nulla reprehenderit error facere maxime ut facilis neque officia!</h6>
+                        <img class="w-100" src="assets/imgs/1.jpg" alt="">
+                        <div class="buttons d-flex justify-content-around align-items-center mt-2 py-2">
+                            <div class="like">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>Like</span>
+                            </div>
+                            <div class="comment">
+                                <i class="fas fa-message"></i>
+                                <span>Comment</span>
+                            </div>
+                            <div class="Send">
+                                <i class="fab fa-facebook-messenger"></i>
+                                <span>Send</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- POST 2-->
+                    <div class="col-12 lightback round py-3 mb-3">
+                        <div class="post-data d-flex">
+                            <div class="add-post-img px-4"><img class="round-img" src="assets/imgs/person2.jpg" alt=""></div>
+                            <div class="post-txt"><h6 class="post-h6">Steven Cole</h6> <span>Cairo , 5min ago</span></div>
+                        </div>
+                        <h6 class="p-2 mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione suscipit nam enim inventore! Fugit, libero distinctio veritatis deserunt assumenda expedita nulla reprehenderit error facere maxime ut facilis neque officia!</h6>
+                        <img class="w-100" src="assets/imgs/2.avif" alt="">
+                        <div class="buttons d-flex justify-content-around align-items-center mt-2 py-2">
+                            <div class="like">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>Like</span>
+                            </div>
+                            <div class="comment">
+                                <i class="fas fa-message"></i>
+                                <span>Comment</span>
+                            </div>
+                            <div class="Send">
+                                <i class="fab fa-facebook-messenger"></i>
+                                <span>Send</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- POST 3-->
+                    <div class="col-12 lightback round py-3 mb-3">
+                        <div class="post-data d-flex">
+                            <div class="add-post-img px-4"><img class="round-img" src="assets/imgs/person3.jpg" alt=""></div>
+                            <div class="post-txt"><h6 class="post-h6">Harold Baldwin</h6> <span>Cairo , 5min ago</span></div>
+                        </div>
+                        <h6 class="p-2 mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione suscipit nam enim inventore! Fugit, libero distinctio veritatis deserunt assumenda expedita nulla reprehenderit error facere maxime ut facilis neque officia!</h6>
+                        <img class="w-100" src="assets/imgs/3.jpg" alt="">
+                        <div class="buttons d-flex justify-content-around align-items-center mt-2 py-2">
+                            <div class="like">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>Like</span>
+                            </div>
+                            <div class="comment">
+                                <i class="fas fa-message"></i>
+                                <span>Comment</span>
+                            </div>
+                            <div class="Send">
+                                <i class="fab fa-facebook-messenger"></i>
+                                <span>Send</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- POST 4-->
+                    <div class="col-12 lightback round py-3 mb-3">
+                        <div class="post-data d-flex">
+                            <div class="add-post-img px-4"><img class="round-img" src="assets/imgs/person4.jpg" alt=""></div>
+                            <div class="post-txt"><h6 class="post-h6">Charles Ladner</h6> <span>Cairo , 5min ago</span></div>
+                        </div>
+                        <h6 class="p-2 mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione suscipit nam enim inventore! Fugit, libero distinctio veritatis deserunt assumenda expedita nulla reprehenderit error facere maxime ut facilis neque officia!</h6>
+                        <img class="w-100" src="assets/imgs/4.webp" alt="">
+                        <div class="buttons d-flex justify-content-around align-items-center mt-2 py-2">
+                            <div class="like">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>Like</span>
+                            </div>
+                            <div class="comment">
+                                <i class="fas fa-message"></i>
+                                <span>Comment</span>
+                            </div>
+                            <div class="Send">
+                                <i class="fab fa-facebook-messenger"></i>
+                                <span>Send</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- POST 5-->
+                    <div class="col-12 lightback round py-3 mb-3">
+                        <div class="post-data d-flex">
+                            <div class="add-post-img px-4"><img class="round-img" src="assets/imgs/person1.jpg" alt=""></div>
+                            <div class="post-txt"><h6 class="post-h6">Dave Rowley</h6> <span>Cairo , 5min ago</span></div>
+                        </div>
+                        <h6 class="p-2 mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione suscipit nam enim inventore! Fugit, libero distinctio veritatis deserunt assumenda expedita nulla reprehenderit error facere maxime ut facilis neque officia!</h6>
+                        <img class="w-100" src="assets/imgs/5.jpg" alt="">
+                        <div class="buttons d-flex justify-content-around align-items-center mt-2 py-2">
+                            <div class="like">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>Like</span>
+                            </div>
+                            <div class="comment">
+                                <i class="fas fa-message"></i>
+                                <span>Comment</span>
+                            </div>
+                            <div class="Send">
+                                <i class="fab fa-facebook-messenger"></i>
+                                <span>Send</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- POST 6-->
+                    <div class="col-12 lightback round py-3 mb-3">
+                        <div class="post-data d-flex">
+                            <div class="add-post-img px-4"><img class="round-img" src="assets/imgs/person1.jpg" alt=""></div>
+                            <div class="post-txt"><h6 class="post-h6">Dave Rowley</h6> <span>Cairo , 5min ago</span></div>
+                        </div>
+                        <h6 class="p-2 mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione suscipit nam enim inventore! Fugit, libero distinctio veritatis deserunt assumenda expedita nulla reprehenderit error facere maxime ut facilis neque officia!</h6>
+                        <img class="w-100" src="assets/imgs/1.jpg" alt="">
+                        <div class="buttons d-flex justify-content-around align-items-center mt-2 py-2">
+                            <div class="like">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>Like</span>
+                            </div>
+                            <div class="comment">
+                                <i class="fas fa-message"></i>
+                                <span>Comment</span>
+                            </div>
+                            <div class="Send">
+                                <i class="fab fa-facebook-messenger"></i>
+                                <span>Send</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- POST 7-->
+                    <div class="col-12 lightback round py-3 mb-3">
+                        <div class="post-data d-flex">
+                            <div class="add-post-img px-4"><img class="round-img" src="assets/imgs/person2.jpg" alt=""></div>
+                            <div class="post-txt"><h6 class="post-h6">Steven Cole</h6> <span>Cairo , 5min ago</span></div>
+                        </div>
+                        <h6 class="p-2 mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione suscipit nam enim inventore! Fugit, libero distinctio veritatis deserunt assumenda expedita nulla reprehenderit error facere maxime ut facilis neque officia!</h6>
+                        <img class="w-100" src="assets/imgs/2.avif" alt="">
+                        <div class="buttons d-flex justify-content-around align-items-center mt-2 py-2">
+                            <div class="like">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>Like</span>
+                            </div>
+                            <div class="comment">
+                                <i class="fas fa-message"></i>
+                                <span>Comment</span>
+                            </div>
+                            <div class="Send">
+                                <i class="fab fa-facebook-messenger"></i>
+                                <span>Send</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- POST 8-->
+                    <div class="col-12 lightback round py-3 mb-3">
+                        <div class="post-data d-flex">
+                            <div class="add-post-img px-4"><img class="round-img" src="assets/imgs/person3.jpg" alt=""></div>
+                            <div class="post-txt"><h6 class="post-h6">Harold Baldwin</h6> <span>Cairo , 5min ago</span></div>
+                        </div>
+                        <h6 class="p-2 mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione suscipit nam enim inventore! Fugit, libero distinctio veritatis deserunt assumenda expedita nulla reprehenderit error facere maxime ut facilis neque officia!</h6>
+                        <img class="w-100" src="assets/imgs/3.jpg" alt="">
+                        <div class="buttons d-flex justify-content-around align-items-center mt-2 py-2">
+                            <div class="like">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>Like</span>
+                            </div>
+                            <div class="comment">
+                                <i class="fas fa-message"></i>
+                                <span>Comment</span>
+                            </div>
+                            <div class="Send">
+                                <i class="fab fa-facebook-messenger"></i>
+                                <span>Send</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- POST 9-->
+                    <div class="col-12 lightback round py-3 mb-3">
+                        <div class="post-data d-flex">
+                            <div class="add-post-img px-4"><img class="round-img" src="assets/imgs/person4.jpg" alt=""></div>
+                            <div class="post-txt"><h6 class="post-h6">Charles Ladner</h6> <span>Cairo , 5min ago</span></div>
+                        </div>
+                        <h6 class="p-2 mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione suscipit nam enim inventore! Fugit, libero distinctio veritatis deserunt assumenda expedita nulla reprehenderit error facere maxime ut facilis neque officia!</h6>
+                        <img class="w-100" src="assets/imgs/4.webp" alt="">
+                        <div class="buttons d-flex justify-content-around align-items-center mt-2 py-2">
+                            <div class="like">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>Like</span>
+                            </div>
+                            <div class="comment">
+                                <i class="fas fa-message"></i>
+                                <span>Comment</span>
+                            </div>
+                            <div class="Send">
+                                <i class="fab fa-facebook-messenger"></i>
+                                <span>Send</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- POST 10-->
+                    <div class="col-12 lightback round py-3 mb-3">
+                        <div class="post-data d-flex">
+                            <div class="add-post-img px-4"><img class="round-img" src="assets/imgs/person1.jpg" alt=""></div>
+                            <div class="post-txt"><h6 class="post-h6">Dave Rowley</h6> <span>Cairo , 5min ago</span></div>
+                        </div>
+                        <h6 class="p-2 mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione suscipit nam enim inventore! Fugit, libero distinctio veritatis deserunt assumenda expedita nulla reprehenderit error facere maxime ut facilis neque officia!</h6>
+                        <img class="w-100" src="assets/imgs/5.jpg" alt="">
+                        <div class="buttons d-flex justify-content-around align-items-center mt-2 py-2">
+                            <div class="like">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>Like</span>
+                            </div>
+                            <div class="comment">
+                                <i class="fas fa-message"></i>
+                                <span>Comment</span>
+                            </div>
+                            <div class="Send">
+                                <i class="fab fa-facebook-messenger"></i>
+                                <span>Send</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Side -->
+                <div class="col-3 right  d-none d-lg-flex">
+                    <div class="">
+                        <section>
+                            <!-- Events -->
+                            <div class="events  col-12 lightback round">
+                                <div class="col-12 events_row"><h5>Events</h5></div>
+                                <div class="col-12"> <img class="w-100 rounded" src="assets/imgs/event.jpg" alt=""></div>
+                                <div class="col-12 events_row"><h5>Recently Events</h5></div>
+                                <div class="col-12 events_row d-flex align-items-center">
+                                    <div class="col-6 e-img"><img class="w-100 rounded" src="assets/imgs/e1.jpg" alt=""></div>
+                                    <div class="col-6">
+                                        <h6 class="px-2">Abu Simbel Sun Festival.</h6>
+                                        <h6 class="px-2 date">1-1-2023</h6>
+                                    </div>
+                                </div>
+                                <div class="col-12 events_row d-flex align-items-center">
+                                    <div class="col-6 e-img"><img class="w-100 rounded" src="assets/imgs/e2.jpg" alt=""></div>
+                                    <div class="col-6">
+                                        <h6 class="px-2">Coptic Orthodox Easter.</h6>
+                                        <h6 class="px-2 date">11-2-2023</h6>
+                                    </div>
+                                </div>
+                                <div class="col-12 events_row d-flex align-items-center">
+                                    <div class="col-6 e-img"><img class="w-100 rounded" src="assets/imgs/e3.jpg" alt=""></div>
+                                    <div class="col-6">
+                                        <h6 class="px-2">Sandbox Music Festival.</h6>
+                                        <h6 class="px-2 date">31-3-2023</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
